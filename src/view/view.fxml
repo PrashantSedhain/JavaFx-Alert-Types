@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="659.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ViewController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="266.0" layoutY="219.0" mnemonicParsing="false" onAction="#informationButtonClicked" prefHeight="42.0" prefWidth="129.0" style="-fx-background-color: #02b381;" text="Information" textFill="WHITE" />
+            <Button layoutX="266.0" layoutY="122.0" mnemonicParsing="false" onAction="#warningButtonClicked" prefHeight="42.0" prefWidth="129.0" style="-fx-background-color: #ffa600;" text="Warning" textFill="WHITE" />
+            <Button layoutX="266.0" layoutY="170.0" mnemonicParsing="false" onAction="#alertButtonClicked" prefHeight="42.0" prefWidth="129.0" style="-fx-background-color: #b32e02;" text="Alert" textFill="WHITE" />
+            <Text layoutX="200.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alert Box Examples">
+               <font>
+                  <Font name="Georgia" size="30.0" />
+               </font>
+            </Text>
+            <Button layoutX="266.0" layoutY="267.0" mnemonicParsing="false" onAction="#ConfirmationButtonClicked" prefHeight="42.0" prefWidth="129.0" style="-fx-background-color: #2d9900;" text="Confirmation" textFill="WHITE" />
+            <Button layoutX="265.0" layoutY="314.0" mnemonicParsing="false" onAction="#NoneButtonClicked" prefHeight="42.0" prefWidth="129.0" style="-fx-background-color: #697564;" text="None" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
